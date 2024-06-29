@@ -1,0 +1,12 @@
+
+.vs/*
+Binaries/*
+Build/*
+Content/Collections/*
+Content/Developers/*
+Content/MedievalDungeon/*
+Content/StarterContent/*
+DerivedDataCache/*
+Intermediate/*
+Saved/*
+*.sln
