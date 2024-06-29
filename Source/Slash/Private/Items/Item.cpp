@@ -19,7 +19,7 @@ void AItem::BeginPlay()
 	FVector Forward = GetActorForwardVector();
 
 	DRAW_SPHERE(Location);
-	DRAW_LINE(Location, Location + Forward * 100);
+	DRAW_VECTOR(Location, Location + Forward * 100);
 }
 
 void AItem::Tick(float DeltaTime)
